@@ -38,6 +38,12 @@ namespace hospital_project.Models
         public DbSet<Researcher> Researchers { get; set; }
         public DbSet<Lab> Labs { get; set; }
         public DbSet<Project> Projects { get; set; }
+        //Lots Table
+        public DbSet<Lot> Lots { get; set; }
+        //Fees Table
+        public DbSet<Fee> Fees { get; set; }
+        //Booking Table
+        public DbSet<Book> Booking { get; set; }
 
         public static ApplicationDbContext Create()
         {
